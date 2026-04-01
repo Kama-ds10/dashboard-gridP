@@ -33,6 +33,32 @@ body {
     margin-top: 45px;
 }
 
+.search {
+  width: 18px;
+  filter: brightness(0);
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: #e2e8f0;
+  padding: 8px 15px;
+  border-radius: 30px;
+  width: 400px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-left: 10px;
+  flex: 1;
+  font-size: 14px;
+}
+
+
+
+
 .main {
   display: flex;
   flex-direction: column;
@@ -40,9 +66,9 @@ body {
 
 .topbar {
   display: flex;
-  justify-content: space-between;
-  padding: 15px;
-  background: #f5f5f5;
+  justify-content:space-between;
+  align-items: center;
+  padding: 15px 25px;
 }
 
 .content {
