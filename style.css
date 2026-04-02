@@ -33,8 +33,8 @@ body {
     margin-top: 45px;
 }
 
-.search {
-  width: 18px;
+.search, .notification-icon{
+  width: 24px;
   filter: brightness(0);
 }
 
@@ -101,6 +101,6 @@ body {
 .announcements,
 .trending {
   background: #eee;
-  padding: 15px;
+  padding: 30px 30px;
   border-radius: 8px;
 }
